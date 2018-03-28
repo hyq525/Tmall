@@ -80,10 +80,14 @@
     display: block;
     background-color: #FFFFFF;
 }
+.shopsup:hover{
+    color: #ff0036;
+}
 .shopsupport:hover span{
     display: block;
     float: right;
     transform: rotate(180deg);
+    color: #999;
 }
 .userCollection:hover{
     box-sizing: border-box;
@@ -91,21 +95,32 @@
     display: block;
     background-color: #FFFFFF;
 }
+.usercoll:hover{
+    color: #ff0036;
+}
+.usercoll:hover span,.usercoll:hover b{
+    color: #999;
+}
 .usertaobao:hover{
     box-sizing: border-box;
     border: 1px solid #e0e0e0;
     display: block;
     background-color: #FFFFFF;
 }
+.taobaologin:hover{
+    color: #ff0036;
+}
 .userCollection:hover span{
     display: block;
     float: right;
     transform: rotate(180deg);
+
 }
 .usertaobao:hover span{
     display: block;
     float: right;
     transform: rotate(180deg);
+    color: #999;
 }
 .shopsupport .mytbmore1{
     box-sizing: border-box;
@@ -145,9 +160,20 @@
 .site-help{
     width: 226px;
 }
+
 .site-hot h2{
     color: #f56a00;
     padding-bottom: 8px;
+}
+.site-hot h2 span{
+    color: #f56a00;
+}
+.site-mart h2{
+    color: #2263d4;
+}
+.site-mart h2 span{
+    color: #2263d4;
+
 }
 .site-hot li{
     float: left;
@@ -158,6 +184,9 @@
 .site-hot li a:hover{
     color: #f56a00;
     border-bottom:1px solid #f56a00;
+}
+.site-help h2,.site-help h2 span{
+    color: #666;
 }
 .xuxuxian{
     width: 124px;
